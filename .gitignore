@@ -1,26 +1,12 @@
-# Python bytecode
-__pycache__/
-*.py[cod]
-
-# Django migrations
-*.sqlite3
-db.sqlite3
-
-# Ignore virtual environments
-env/
 venv/
+env/
 
-# Ignore IDE/editor files
+*.pyc
+__pycache__/
+*.pyo
+
 .vscode/
-*.swp
 
-# Ignore static and media files (if you have them in production)
-static/
-media/
+Thumbs.db
+.DS_Store
 
-# Ignore pipenv and other environment files
-Pipfile
-Pipfile.lock
-
-# Django secret key and settings (if you store sensitive info in a .env file)
-.env
