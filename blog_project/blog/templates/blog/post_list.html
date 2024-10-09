@@ -5,6 +5,18 @@
   </head>
   <body>
     <h1>Blog Posts</h1>
+
+    <div>
+      <a href="?category=Django">Django</a> |
+      <a href="?category=Python">Python</a> |
+      <a href="?category=Web Development">Web Development</a> |
+      <a href="?category=JavaScript">JavaScript</a> |
+      <a href="?category=Web Design">Web Design</a> |
+      <a href="?category=Version Control">Version Control</a> |
+      <a href="?">All</a>
+      <!-- Link to show all posts -->
+    </div>
+
     <ul>
       {% for post in posts %}
       <li>{{ post.title }} - {{ post.content }} ({{ post.category }})</li>
