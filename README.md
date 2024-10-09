@@ -1,12 +1,18 @@
 # Django Blog Application
 
-This project is a **learning exercise** to practice building web applications using Django. The application is a simple blog that allows the creation and display of blog posts. It helped me understand key concepts in Django such as models, views, templates, and the admin interface.
+This is a learning project built with Django, where I developed a simple blog application to practice key concepts.
+
+## Key Features
+
+- **Django Models**: Defined models with fields such as `title`, `content`, `created_at`, and `category`.
+- **Migrations**: Generated and applied migrations to create the necessary database tables.
+- **Data Management**: Created instances of the `Post` model and filtered posts by category both in the Django shell and within views.
 
 ## What I Learned
 
-- **Creating a Django Project**: I learned how to start a new Django project and create an application within it.
-- **Defining Models**: I learned how to define models with fields like `CharField`, `TextField`and `DateTimeField`.
-- **Using Django Admin**: I explored Django’s built-in admin interface to create, update, and manage blog posts.
-- **Views and Templates**: I learned how to create views to handle requests and display blog posts using templates.
-- **Querying the Database**: I practiced querying the database using Django ORM, including creating new instances of the `Post` model and filtering posts by category.
-- **Working with Migrations**: I learned how to use Django's migration system to create and update database tables based on model changes.
+1. How to create a Django project and app.
+2. How to define models and their fields in `models.py`.
+3. How to run migrations to update the database schema.
+4. How to query the database by creating instances and filtering data.
+
+This project helped me understand the basics of building and interacting with a Django application.
